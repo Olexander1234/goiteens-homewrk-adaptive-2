@@ -1,0 +1,135 @@
+/* наша команда */
+.mn{
+    background-color: var(--bacround-button);
+    @media (min-width: $mobile) {
+   width: 482;
+        
+    }
+}
+.our-team{
+    
+    font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 42px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   }   
+  
+
+.card{
+  
+    @media (min-width: $tablet) {
+        width: calc((100% - 2 * 30px) /2) ;
+        margin: -15px;
+       
+        }
+  
+        @media (min-width: $desktop) {
+            width: calc((100% - 4 * 30px) /4) ;
+            
+        }
+        
+       
+
+    
+    background: var(--white-color);
+    /* material shadow v1 */
+    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    &-link div + div{ 
+       
+       
+        @media (min-width: $tablet) {
+            margin-bottom: 30px;
+            margin-left: 30px;
+           
+            
+        }
+        @media (min-width: $desktop) {
+            margin-bottom: 30px;
+            margin-left: 30px;
+           
+            
+        }
+        }
+
+
+        &-link{
+          
+        
+            @media (min-width: $tablet) {
+                flex-wrap: wrap;
+              margin: 15px;
+           
+                display: flex;
+               justify-content: baseline;
+                 align-items: center;;
+             
+               
+          
+                
+              }
+              @media (min-width: $desktop){
+               
+               
+              }
+          
+           
+              
+            }
+          
+
+           
+        }
+       
+.igor{
+    @media (min-width: $tablet) {
+        margin-bottom: 30px;
+        margin-left: 30px;
+       
+        
+    }
+    @media (min-width: $desktop) {
+        margin-bottom: 30px;
+        margin-left: 30px;
+       
+        
+    }
+}
+.team {
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+     letter-spacing: 0.03em;
+
+
+     &-link{
+        color: var( --text-color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        }
+
+      }
+     
+        
+      .network-item:not(:last-child){
+        margin-right: 10px;
+      }

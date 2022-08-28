@@ -1,0 +1,30 @@
+
+.logo-span,
+.nav-link:hover,
+.link-list:hover,
+.link-list:focus,
+.logo-span{ 
+color: #2196F3;
+}  
+
+/* Шапка */
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    & li + li{
+        margin-left: 30px;
+    }
+    
+} 
+
+
+
+
+
+
+
+
+
+
+

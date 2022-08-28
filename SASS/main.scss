@@ -1,0 +1,25 @@
+@import "./utils/utils";
+@import "./utils/mixins";
+@import "./variabels/breackpoints";
+@import "./components/common";
+ 
+@import"./components/heder/header";
+@import"./components/heder/mobile.menu";
+@import "./components/hero";
+@import "./components/modal";
+@import "./components/form";
+@import "./components/detels";
+@import "./components/ourteam";
+@import "./components/customers";
+@import "./components/footer";
+@import "./components/joinandsocial";
+@import "./components/PORTFOLIO/buttonportfolio";
+@import "./components/PORTFOLIO/examples";
+@import "./components/PORTFOLIO/animationportfolio";
+@import "./variabels/variabel";
+@import "./components/whatwedo";
+@import "./components/heder/cntact";
+@import "./components/heder/heder-networks";
+@import "./components/heder/logo";
+
+@import "./components/heder/navigation";

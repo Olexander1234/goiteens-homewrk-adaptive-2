@@ -1,0 +1,87 @@
+/* портфоліо */
+
+/* кнопки */
+.link-list  .header-nav {
+    margin-bottom: 0px;
+}
+.qwerty{
+   @include centeredFlex ();
+    margin-bottom: 50px;
+
+
+
+    &{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+@media (min-width: $mobile) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-top: -15px;
+}
+}
+ .fliter-item{
+    @media (min-width: $mobile) and (max-width:767px){
+        margin-top: 15px;
+        margin-left: 8px;
+
+    }
+    @media (min-width: $tablet){
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-bottom: 30px;
+    }
+    @media (min-width: $desktop){
+       
+        margin-bottom: 50px;
+    }
+
+ }
+.qwerty li:not(:last-child){
+    margin-right: 8px;
+}
+
+
+
+.liter-link{
+ @include centeredFlex (inline-block);
+    background: #F5F4FA;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+
+letter-spacing: 0.03em;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+
+letter-spacing: 0.03em;
+
+color: #212121;
+display: inline-block;
+    
+border-radius:  4px;
+min-width: 73px;
+height: 38px;
+padding:  6px 22px;
+
+display: flex;
+
+
+
+&:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+}

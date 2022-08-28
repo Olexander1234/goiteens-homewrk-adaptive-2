@@ -1,0 +1,79 @@
+/* блок приєднуйтесь та соціальні мережі */
+
+.coorent{
+    fill: currentColor;
+    
+ }
+ .social-link{
+  color: var( --svg-color);
+ }
+ .social-link:hover
+ {
+  color: var(--white-color);
+   background-color: var( --blue-color); 
+ }
+ 
+ 
+ 
+ 
+ .join .social-link{
+     background-color: rgba(255, 255, 255, 0.1); /* #2f303a */
+     color: var(--bacround-button);
+   }
+ .join .social-link:hover,
+ .join .social-link:focus{
+ background-color:  var( --blue-color); 
+ 
+ 
+ }
+ .join{
+     
+     margin-top: -88px;
+     padding-bottom: 100px;
+     justify-content: space-around;
+    @media (min-width: $desktop) {
+      margin-left: 250px;
+      
+    }
+ }
+ .network-item{
+  margin-top: 20px;
+  @media (max-width: 767px) {
+    margin-left: 135px;
+  }
+  
+ }
+ .join-networks{
+  color: var(--bacround-button);
+     
+     font-size: 14px;
+     line-height: 1.2;
+     font-weight: 700;
+     text-transform: uppercase;
+   }
+   
+   .join .social-icon{ 
+ 
+     fill: currentColor;
+   }
+   .opq{
+     @include centeredFlex ();
+     margin-bottom: 30px;
+     
+ }
+ 
+ 
+ .social-link{
+    @include centeredFlex (inline-block);
+     width: 44px;
+     height: 44px;
+     border-radius: 50%;
+     
+    
+ }
+ .social-link:hover,
+ .social-link:focus
+ {
+   background-color: var( --blue-color); 
+   color: var(--white-color);
+ }

@@ -1,0 +1,26 @@
+.contairn{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media(min-width: $mobile){
+       width: 480px;
+    }
+
+    @media(min-width: $tablet){
+       width: 780px;
+    }
+
+    @media(min-width: $desktop){
+       width: 1200px;
+    }
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-top: 0;
+    margin-bottom: 0;
+    }

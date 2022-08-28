@@ -1,0 +1,135 @@
+/* форма */
+.form, .fields, .fiend{
+    display: flex;
+    flex-direction: column;
+}
+.fiend {
+    position: relative;
+    text-align: start;
+    color: var( --text-color);
+
+
+    & label{
+        font-size: 12px;
+        margin-bottom: 4px
+    }
+
+
+    &-link{
+        margin-top: 20px;
+    }
+
+
+    &-label{
+        margin-bottom: 30px;
+    }
+    
+ 
+}
+.field{
+margin-bottom: 20px;
+&:not(:last-child){
+    margin-bottom: 10px;
+}
+}
+
+
+.title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var( --link-text-color);
+}
+
+
+.form-fiend,
+.textarea{
+    padding-left: 42px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+outline: none;
+}
+
+
+.textarea{
+    resize: none;
+    height: 120px;
+    font-size: 14px;
+    padding: 12px 16px ;
+}
+.form-icon{
+    fill:  var( --black-color);
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 15px;
+    margin: 0;
+ 
+}
+
+
+.btn{
+    width: 200px;
+ 
+ 
+}
+
+.contract{
+    color: var( --blue-color);
+    text-decoration: underline;
+    
+}
+
+
+.fiend-checkbox{
+    appearance: none;
+
+
+    &:focus-within + .checkbox-icon{
+        border: 2px solid  var( --blue-color);
+    }
+}
+
+.checkbox{
+
+
+    &-icon{
+   
+        display: inline-block;
+        margin-right: 8px;
+        padding: 0;
+        border: 2px solid #000;
+        border-radius: 2px;
+    } 
+
+
+    &-input{
+        margin-top: 10px;
+      } 
+}
+
+
+.fiend-checkbox:checked + .checkbox-icon{
+    background-color:  var( --blue-color);
+    border: 2px solid  var( --blue-color);
+}
+
+
+ .fiend:focus-within .form-fiend,
+ .fiend:hover .form-fiend,
+ .fiend:focus-within textarea,
+ .fiend:hover textarea
+ {
+   border: 1px solid  var( --blue-color);
+ }
+ .fiend:focus-within > .form-icon,
+ .fiend:hover > .form-icon {
+   fill: var( --blue-color);
+} 
